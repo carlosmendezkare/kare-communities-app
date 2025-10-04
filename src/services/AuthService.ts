@@ -3,8 +3,6 @@ import { callLoginApi, callRefreshTokenApi } from '../helpers/authHelper'
 import { isApiError } from '../types/apiTypes'
 import { StorageService } from './StorageService'
 
-
-
 const CREDENTIALS_KEY = 'AUTH_CREDENTIALS'
 
 export type AuthCredentials = {
